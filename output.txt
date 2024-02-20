@@ -1,0 +1,11 @@
+({'a b'},{'q0 q1 q2 q0q1 q0q2 q1q2 q0q1q2'},X,q0,{'q2 q0q2 q1q2 q0q1q2'})
+q0 , a -> q0q1
+q0 , b -> q0
+q1 , a -> q2
+q0q1 , a -> q0q1q2
+q0q1 , b -> q0
+q0q2 , a -> q0q1
+q0q2 , b -> q0
+q1q2 , a -> q2
+q0q1q2 , a -> q0q1q2
+q0q1q2 , b -> q0
